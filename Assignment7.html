@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo img {
+    height: 40px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #007bff;
+}
+
+.navbar .icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .icons a {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.heading {
+    text-align: center;
+}
+.img-iformetio {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.img-info {
+    width: 450px;
+    height: 220px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.logo {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.logo-info {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.text {
+    padding-top: 100px;
+}
+
+.main-info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+p {
+    block-size: 20px;
+}
+.main-informetion {
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.info-para {
+    margin-left: 10px;
+}
+
+.form-container {
+    width: 100%;
+    height: 700px;
+    background-color: #d7e332;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.main-form {
+    width: 500px;
+    height: 550px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    margin: 10px 30px 5px 30px ;
+    
+}
+.form {
+    background-color: white;
+    
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    margin: 10px 10% 5px 5%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.para {
+    margin-left: 10px;
+}
+
+.black {
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+
+    </style>
+
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">
+                <img src="https://ik.imagekit.io/krazybee/kreditbee_in/logo_horizontal_fkmrDsJdQq.svg" alt="KreditBee Logo">
+            </a>
+        </div>
+        <ul>
+            <li>Loans</li>
+            <li>Calculators</li>
+            <li>Cridit Report</li>
+            <li>Refet & Earn</li>
+            
+        </ul>
+        <div class="icons">
+            
+            <a href="#" class="apply-btn">sign-up</a>
+        </div>
+    </nav>
+    <div class="informetion">
+        <div class="heading">
+            <h1>Why choose KreditBee?</h1>
+            <div class="color-line"></div>
+        </div>
+        <div class="img-iformetio">
+            <div class="img-info">
+                <div class="logo">
+                    <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-1.svg" alt="">
+                </div>
+                <div class="logo-info">
+                    <h3>Lower Interest Rates</h3>
+                    <p>Get loans for multiple purposes at lower interest rates to suit your needs</p>
+                </div>
+            </div>
+            <div class="img-info">
+                <div class="logo">
+                    <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-2.svg" alt="">
+                </div>
+                <div class="logo-info">
+                    <h3>Fast Processing and Disbursal</h3>
+                    <p>Apply online, check your eligibility and get money directly in your bank in 10 minutes</p>
+                </div>
+            </div>
+            <div class="img-info">
+                <div class="logo">
+                    <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-3.svg" alt="">
+                </div>
+                <div class="logo-info">
+                    <h3>Easy Repayment Options</h3>
+                    <p>Repay the loan amount in easy EMI with flexible tenure options</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text"><h1>Fersh from the blog</h1></div>
+    <div class="main-info">
+        <div class="main-informetion">
+            <div class="photo-info">
+                <img src="https://th.bing.com/th/id/OIP.f3HURVj9en0twOqT_WSfugHaEo?w=269&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            </div>
+            <div class="info-para">
+                <h4>Shopping guides</h4>
+                <p>9 Comfy Throws for Cosy Autumn Vides</p>
+            </div>
+        </div>
+        <div class="main-informetion">
+            <div class="photo-info">
+                <img src="https://th.bing.com/th/id/OIP.f3HURVj9en0twOqT_WSfugHaEo?w=269&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            </div>
+            <div class="info-para">
+                <h4>Shopping guides</h4>
+                <p>9 Comfy Throws for Cosy Autumn Vides</p>
+            </div>
+        </div>
+        <div class="main-informetion">
+            <div class="photo-info">
+                <img src="https://th.bing.com/th/id/OIP.f3HURVj9en0twOqT_WSfugHaEo?w=269&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            </div>
+            <div class="info-para">
+                <h4>Shopping guides</h4>
+                <p>9 Comfy Throws for Cosy Autumn Vides</p>
+            </div>
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="main-form">
+            <div class="form-heading">
+                <h3>Create Account</h3>
+                <h5>Already have an account? <a href="">sign-up</a></h5>
+            </div>
+            <div class="form">
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <label for="username">Full Name</label>
+                        <input type="text" id="username" name="username" placeholder="Enter full name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email address</label>
+                        <input type="text" id="email" name="email" placeholder="Enter email address" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="number">Phone Number</label>
+                        <input type="number" id="number" name="number" placeholder="Enter your whatsapp number" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="code">Referral Code (Optional)</label>
+                        <input type="text" id="code" name="code" placeholder="Enter referral code" required>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+            </div> 
+            <div class="para">
+                <p>
+                    By signing up, I accept the Masai <a href="#">Terms of Service</a> and acknowledge the <a href="#">Privacy Policy.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="black"></div>
+    </footer>
+</body>
+</html>
